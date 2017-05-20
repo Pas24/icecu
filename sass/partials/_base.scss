@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: $font-family-base; // 1
+    line-height: 1.15; // 2
+    width: 100%;
+    height: 100%;
+    -ms-text-size-adjust: 100%; // 3
+    -webkit-text-size-adjust: 100%; // 3
+    overflow-x: hidden; 
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background: #f5f5f5;
+    font-size: 100%;
+}
+
+a {
+    color: #407db5;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background: #fff;
+    display: table;
+    overflow: hidden;
+
+    @media screen and (min-width: 940px) {
+        display: block;
+    }
+}
+
+.header {
+    border-bottom: 5px solid #f2f2f2;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-top: 5px solid #000;
+    background: #2B6A90;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, .2);
+    position: relative;
+    z-index: 2;
+}
+
+
+/*---------------Info Post--------------------*/
+.info-post {
+    
+    background-color: #f2f2f2;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2);
+    padding: 30px 30px 120px;
+
+    @media screen and (min-width: 630px) {
+        padding-bottom: 70px;
+    }
+
+    @media screen and (min-width: 940px) {
+        width: 35%;
+        padding: 50px;
+        height: 100vh;
+        float: left;
+    }
+}
+
+.follow-us {
+    position: relative;
+    padding: 30px 0;
+}
+
+.link-facebook {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+/*---------------Sub Main--------------------*/
+.sub-main {
+    display: table-caption;
+    padding: 30px;
+
+    @media screen and (min-width: 940px) {
+        float: right;
+        padding-right: 2em;
+        padding-top: 35px;
+        width: 60%;
+    }
+}
+
+.reproductor {
+    border: 1px solid #d7d7d7;
+    height: 440px;
+}

@@ -1,0 +1,29 @@
+.question-post {
+    border: 1px solid #e0dfdf;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #dfdfdf;
+    background: #f2f2f2;
+}
+
+.question-title {
+    background-color: #0f2944;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.question-text {
+    display: none;
+    overflow: hidden;
+    padding: 0 40px 15px;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.is-open .question-text {
+    display: block;
+    opacity: 1;
+}
