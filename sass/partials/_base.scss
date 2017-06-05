@@ -11,7 +11,7 @@ html {
     height: 100%;
     -ms-text-size-adjust: 100%; // 3
     -webkit-text-size-adjust: 100%; // 3
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 body {
@@ -56,7 +56,7 @@ a {
 
 /*---------------Info Post--------------------*/
 .info-post {
-    
+
     background-color: #f2f2f2;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2);
     padding: 30px 30px 120px;
@@ -66,9 +66,9 @@ a {
     }
 
     @media screen and (min-width: 940px) {
-        width: 35%;
+        width: 30%;
         padding: 50px;
-        height: 100vh;
+        height: 200vh;
         float: left;
     }
 }
@@ -87,6 +87,47 @@ a {
     color: #000;
 }
 
+.icons  {
+    display: block;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    width: 100%;
+    cursor: pointer;
+    color: #2b6a90;
+
+    &:hover {
+        background-color: #f7f7f7;
+    }
+}
+
+.icon-selected {
+    display: block;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    width: 100%;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    color: #ff8000;
+
+    path {
+        fill: #ff8000;
+    }
+
+    rect {
+        fill: #ff8000;
+    }
+}
+
+.contact-post {
+    margin: 50px 0;
+    font-size: 16px;
+   
+}
+
 /*---------------Sub Main--------------------*/
 .sub-main {
     display: table-caption;
@@ -94,13 +135,51 @@ a {
 
     @media screen and (min-width: 940px) {
         float: right;
-        padding-right: 2em;
-        padding-top: 35px;
-        width: 60%;
+        padding-top: 78px;
+        width: 68%;
     }
 }
 
 .reproductor {
     border: 1px solid #d7d7d7;
     height: 440px;
+    width: 92%;
+ 
+
 }
+
+.manifest {
+
+    display: inline-block;
+    width: 353px; 
+    margin-top: 45px;
+    margin-bottom: 80px;
+   
+}
+
+.vision {
+
+    float: right;
+}
+
+
+.program-radio {
+
+    margin-top: 80px;
+}
+
+
+
+/*---------------Posts--------------------*/
+
+
+
+.post-open {
+    display: block;
+    opacity: 1;
+}
+
+
+
+
+
