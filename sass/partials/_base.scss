@@ -53,10 +53,9 @@ a {
     z-index: 2;
 }
 
+//----------Info post-----------//
 
-/*---------------Info Post--------------------*/
 .info-post {
-
     background-color: #f2f2f2;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2);
     padding: 30px 30px 120px;
@@ -87,7 +86,7 @@ a {
     color: #000;
 }
 
-.icons  {
+.link {
     display: block;
     padding: 40px;
     text-align: center;
@@ -102,7 +101,7 @@ a {
     }
 }
 
-.icon-selected {
+.link-selected {
     display: block;
     padding: 40px;
     text-align: center;
@@ -125,10 +124,15 @@ a {
 .contact-post {
     margin: 50px 0;
     font-size: 16px;
+
+    li{
+        line-height: 22px;
+    }
    
 }
 
-/*---------------Sub Main--------------------*/
+//----------Sub Main-----------//
+
 .sub-main {
     display: table-caption;
     padding: 30px;
@@ -144,40 +148,28 @@ a {
     border: 1px solid #d7d7d7;
     height: 440px;
     width: 92%;
- 
-
 }
 
 .manifest {
-
     display: inline-block;
     width: 353px; 
     margin-top: 45px;
     margin-bottom: 80px;
-   
+
+    h4 {
+        margin-bottom: 10px;
+    }
 }
 
 .vision {
-
     float: right;
 }
 
-
 .program-radio {
-
     margin-top: 80px;
 }
 
 
-
-/*---------------Posts--------------------*/
-
-
-
-.post-open {
-    display: block;
-    opacity: 1;
-}
 
 
 
